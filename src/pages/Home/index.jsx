@@ -1,29 +1,30 @@
 import { Link } from 'react-router-dom'
+import styles from './Home.module.css'
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import Container from '../../components/Container'
-                
+
 function Home() {
     return (
        <>
-          <Header />
-          <Container>
-            <section className="container">
-                <div className="apresentacao">
+        <Header />
+        <Container>
+            <section className={styles.home}>
+                <div className={styles.apresentacao}>
                     <p>
                         Olá, sou <br />
                         <span>Rêmulo Borges</span> <br />
                         Dev Full Stack
                     </p>
-                    <Link to="/sobre" className="btn btn-red">
+                    <Link to="/sobre" className={`${styles.btn} ${styles.btn_red}`}>
                         Saiba mais sobre mim
                     </Link>
                 </div>
                 <figure>
-                    <img className="img-home" src="/developer-red.svg" alt="Imagem de Home" />
+                    <img className={styles.img_home} src="/developer-red.svg" alt="Imagem de Home" />
                 </figure>
             </section>
-            </Container>
+        </Container>
         <Footer />
         </> 
     )
