@@ -10,5 +10,7 @@ Currently, two official plugins are available:
 
 # Necessary facilities
   Npm install
+  <br>
   npm install react-router-dom
+  <br>
   npm install react-icons --save
