@@ -1,0 +1,15 @@
+.light-mode {
+    background-color: #ffffff;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: #ffffff;
+}
+
+.projeto-card {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}

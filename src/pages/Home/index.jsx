@@ -1,17 +1,25 @@
 import { Link } from 'react-router-dom'
 import styles from './Home.module.css'
 import avatar from './images/avatar.jpeg'
+import React, {useState} from 'react'
 
 
 function Home() {
+    const [darkMode, setDarkMode] = useState(false);
+
+    const toggleTheme = () => setDarkMode(!darkMode);
     return (
         <>
+
+        <div className={darkMode ? 'dark-mode' : 'light-mode'}>
+            <button onClick={toggleTheme}>Alterar Tema</button>
+        </div>
         <section className={styles.home}>
             <div className={styles.apresentacao}>
                 <p>
                     Olá, sou <br />
-                    <span>Rêmulo Borges</span> <br />
-                    Dev Full Stack
+                    <span>Nicollas Luz</span> <br />
+                    Dev Junior
                 </p>
                 <Link to="/sobre" className={`${styles.btn} ${styles.btn_red}`}>
                     Saiba mais sobre mim
