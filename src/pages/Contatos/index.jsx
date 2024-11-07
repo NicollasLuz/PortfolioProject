@@ -14,7 +14,7 @@ function Contatos() {
 
                 <div className={styles.icones}>
 
-                    <a href='nicollasgoias@hotmail.com' target='_blank' rel='noopener noreferrer'>
+                    <a href='mailto:nicollasgoias@hotmail.com' target='_blank' rel='noopener noreferrer'>
                         <GoMail className={styles.icone} />
                     </a>
 
