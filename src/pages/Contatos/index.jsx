@@ -13,25 +13,21 @@ function Contatos() {
                 <p>Para que possamos conversar mais sobre</p>
 
                 <div className={styles.icones}>
-                    
-                    <a href='mailto:teste@gmail.com' target='_blank' rel='noopener noreferrer'>
+
+                    <a href='mailto:nicollasgoias@hotmail.com' target='_blank' rel='noopener noreferrer'>
                         <GoMail className={styles.icone} />
                     </a>
 
-                    <a href='https://' target='_blank' rel='noopener noreferrer'>
+                    <a href='https://www.instagram.com/nicollasribluz/' target='_blank' rel='noopener noreferrer'>
                         <BsInstagram className={styles.icone} />
                     </a>
 
-                    <a href='' target='_blank' rel='noopener noreferrer'>
+                    <a href='https://www.youtube.com/@n1coll4u7' target='_blank' rel='noopener noreferrer'>
                         <BsYoutube className={styles.icone} />
                     </a>
 
                     <a href='https://github.com/NicollasLuz' target='_blank' rel='noopener noreferrer'>
                         <BsGithub className={styles.icone} />
-                    </a>
-
-                    <a href='' target='_blank' rel='noopener noreferrer'>
-                        <BsLinkedin className={styles.icone} />
                     </a>
 
                 </div>
