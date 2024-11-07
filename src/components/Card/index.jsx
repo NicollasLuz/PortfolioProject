@@ -1,7 +1,7 @@
 
 import styles from './Card.module.css'
-import { FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa'
 import { BsArrowRight } from 'react-icons/bs'
+
 
 function Card({ title, description, icons }) {
     return (

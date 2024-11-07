@@ -1,6 +1,8 @@
 import Card from "../../components/Card"
-import { FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa'
 import Container from '../../components/Container'
+import { FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa'
+import { DiJava  } from "react-icons/di";
+import { GoPlus } from "react-icons/go";
 
 function Projetos() {
     return (
@@ -10,7 +12,7 @@ function Projetos() {
                 <Card
                     title="SomeBasicProjects"
                     description="Explore my repository of engaging projects, from games to interactive visualizations. Discover where creativity meets technology!"
-                    icons={[FaHtml5, FaCss3Alt, FaJs, FaReact]}
+                    icons={[DiJava, GoPlus ]}
                 />
                 <Card
                     title="TaskManagementSystem"
