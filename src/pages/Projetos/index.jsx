@@ -2,7 +2,7 @@ import Card from "../../components/Card"
 import Container from '../../components/Container'
 import { FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa'
 import { DiJava  } from "react-icons/di";
-import { GoPlus } from "react-icons/go";
+import { GoPlusCircle  } from "react-icons/go";
 
 function Projetos() {
     return (
@@ -12,7 +12,7 @@ function Projetos() {
                 <Card
                     title="SomeBasicProjects"
                     description="Explore my repository of engaging projects, from games to interactive visualizations. Discover where creativity meets technology!"
-                    icons={[DiJava, GoPlus ]}
+                    icons={[DiJava, GoPlusCircle  ]}
                 />
                 <Card
                     title="TaskManagementSystem"
@@ -22,6 +22,11 @@ function Projetos() {
                 <Card
                     title="ContactManagement"
                     description="Project to implement a simple contact management system using React. The project will allow the user to add, remove and edit contacts in a list."
+                    icons={[FaHtml5, FaCss3Alt, FaJs, FaReact]}
+                />
+                <Card
+                    title="Jokenpo"
+                    description="Project to make a jokenpo against the computer"
                     icons={[FaHtml5, FaCss3Alt, FaJs, FaReact]}
                 />
             </Container>
