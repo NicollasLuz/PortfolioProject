@@ -1,12 +1,15 @@
 import Card from "../../components/Card"
+import Container from '../../components/Container'
+
 
 function Projetos() {
     return (
         <>
-            <h2>Projetos</h2>
-            <Card />
-            <Card />
-            <Card />
+            <Container>
+                <h2 className="oi">Projetos</h2>
+                <Card />
+                <Card />
+            </Container>
         </>
     )
 }

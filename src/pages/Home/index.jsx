@@ -10,8 +10,8 @@ function Home() {
             <div className={styles.apresentacao}>
                 <p>
                     Olá, sou <br />
-                    <span>Rêmulo Borges</span> <br />
-                    Dev Full Stack
+                    <span>Nicollas Luz</span> <br />
+                    Dev Junior
                 </p>
                 <Link to="/sobre" className={`${styles.btn} ${styles.btn_red}`}>
                     Saiba mais sobre mim
