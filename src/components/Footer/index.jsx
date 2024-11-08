@@ -3,7 +3,7 @@ import styles from './Footer.module.css'
 function Footer() {
     return (
         <footer className={styles.footer}>
-            Feito com ❣️ por Rêmulo Borges © 2024
+            Feito com 🧡 por Nicollas Luz © 2024
         </footer>
     )
 }
