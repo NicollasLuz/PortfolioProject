@@ -166,4 +166,16 @@
         }
     }
 
-    
+    /* Modo claro */
+    .light-mode {
+        background-color: #ffffff;
+        color: black;  
+        transition: background-color 1s ease, color 1s ease;          
+    }
+
+    /* Modo escuro */
+    .dark-mode {
+        background-color: #121212;
+        color: #ffffff;   
+        transition: background-color 1s ease, color 1s ease;         
+    }
