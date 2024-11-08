@@ -67,6 +67,28 @@
         gap: 1rem;
     }
 
+    .switch-wrapper {
+        display: inline-block;
+        position: relative;
+        left: -50px;  /* Ajusta o botão um pouco para a esquerda */
+    }
+
+    .switch {
+        width: 3em;  /* Tamanho do switch no modo mobile */
+        height: 1.8em;
+    }
+
+    .slider {
+        background-color: #fdfefedc;
+        height: 100%; /* Alinha o slider ao tamanho do switch */
+    }
+
+    .slider:before {
+        height: 1em; /* Menor bolinha no switch para mobile */
+        width: 1em;
+    }
+
+
 }
 
 @media (max-width: 480px) {
