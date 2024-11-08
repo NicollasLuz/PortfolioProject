@@ -3,8 +3,9 @@ import styles from './Card.module.css'
 import { BsArrowRight } from 'react-icons/bs'
 
 
-function Card({ title, description, icons }) {
+function Card({ title, description, icons, lugar }) {
     return (
+        
         <section className={styles.card}>
             <h3>{title}</h3>
             <p>{description}</p>
@@ -14,9 +15,11 @@ function Card({ title, description, icons }) {
                         <Icon key={index} />
                     ))}
                 </div>
-                <button className={styles.botao}>
-                    <BsArrowRight />
-                </button>
+                <a href = {lugar} target = "_blank">
+                    <button className={styles.botao}>
+                        <BsArrowRight />
+                    </button>
+                </a>
             </div>
         </section>
     )
