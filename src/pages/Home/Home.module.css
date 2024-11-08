@@ -1,5 +1,5 @@
 
-/* css da page Home */
+/* csws da page Home */
 .home {
   width: 100%;
   min-height: 90vh;
@@ -57,25 +57,10 @@
 .home p {
     font-size: 2rem;
 }
+
 .home img {
     max-width: 100%;
     height: auto;
     padding-inline: 2.5rem;
 }
-}
-
-.light-mode {
-  background-color: #ffffff;
-  color: black;
-}
-
-.dark-mode {
-  background-color: black;
-  color: #ffffff;
-}
-
-.projeto-card {
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid #ccc;
 }
